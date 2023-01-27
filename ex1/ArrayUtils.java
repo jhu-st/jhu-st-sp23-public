@@ -100,6 +100,7 @@ public class ArrayUtils {
             curr += nums[right];
             while (curr > k) {
                 curr -= nums[left];
+                left++;
             }
 
             ans = Math.max(ans, right - left);
