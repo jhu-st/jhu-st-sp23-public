@@ -87,8 +87,9 @@ public class ArrayUtils {
      * Find the length of the longest subarray with a sum less than or equal to k
      *
      * @param nums the array of integers
-     * @return k the target number which must not be exceeded
-     * @throws NullPointerException if x is null
+     * @param k the target number which must not be exceeded
+     * @return the length of the longest subarray within nums such that the sum of elements of the subarray is less than or equal to k
+     * @throws NullPointerException if nums is null
      */
     // test: nums = [-2, 0, 4, 5, 6] and k = 4; Expected = 3 (i.e., length of [-2, 0, 4] which is 3)
     public static int findLength(int[] nums, int k) {
