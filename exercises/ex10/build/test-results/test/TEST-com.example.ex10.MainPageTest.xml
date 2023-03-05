@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.ex10.MainPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-03T18:57:50" hostname="DESKTOP-7ASSEIC" time="5.705">
+  <properties/>
+  <testcase name="test4()" classname="com.example.ex10.MainPageTest" time="5.705"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 20 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: D:\JHU\STAD\Ex10\Ex10\build\downloads\1677869870181_33988_20
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 110.0.5481.77 (resolved driver for Chrome 110)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\darvi\.cache\selenium\chromedriver\win32\110.0.5481.77\chromedriver.exe
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 43241
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677869872.333][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 03, 2023 1:57:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from 120000 to 60000
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from 10800000 to 120000
+[Test worker] INFO com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1280x800
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=110.0.5481.104 Platform=WINDOWS
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.23.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 20: ChromeDriver -> ChromeDriver: chrome on WINDOWS (a8d77d7973547e2fa394ab25b88849cc)
+]]></system-err>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ArrayUtilsPBT" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-17T18:55:25" hostname="DESKTOP-7ASSEIC" time="0.445">
+  <properties/>
+  <testcase name="countAlwaysNonZeroR1EqualsR2" classname="ArrayUtilsPBT" time="0.445"/>
+  <system-out><![CDATA[timestamp = 2023-02-17T13:55:25.617, ArrayUtilsPBT:countAlwaysNonZeroR1EqualsR2 = 
+                              |--------------------jqwik--------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = PREVIOUS_SEED | use the previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 9          | # of all combined edge cases
+edge-cases#tried = 9          | # of edge cases tried in current run
+seed = 3868967333669215875    | random seed to reproduce generated values
+
+
+]]></system-out>
+  <system-err><![CDATA[Feb 17, 2023 1:55:25 PM net.jqwik.engine.execution.AfterFailureParametersGenerator logAfterFailureHandling
+INFO: After Failure Handling: PREVIOUS_SEED, Previous Generation: <GenerationInfo(3868967333669215875, 17, [size=4])>
+]]></system-err>
+</testsuite>

@@ -1,0 +1,4 @@
+com/example/ex10/MainPage.java
+ com.example.ex10.MainPage
+com/example/ex10/MainPageTest.java
+ com.example.ex10.MainPageTest
